@@ -1,0 +1,94 @@
+body {
+    background-color: rgb(241, 197, 212);
+    margin: 0%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    text-align: center;
+    background-image: url("purple.jpg");
+    padding: 2em 0;
+    color: whitesmoke
+}
+
+header h1 {
+    text-align: center;
+    margin-top: 4%;
+    font-size: 45px;
+    text-shadow: 0px -3px 0px midnightblue;
+}
+
+.navigation a {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    text-decoration: none;
+    padding: 0.5em 3.3em;
+    border-radius: 155px;
+    background-color: rgba(63, 25, 112, 0.61);
+}
+
+.navigation li {
+    display: inline-block;
+}
+
+.navigation a:hover {
+    box-shadow: 5px 5px 5px 1px rgb(3, 4, 110);
+    ;
+}
+
+footer {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(241, 197, 212);
+    background-image: url("stars.jpg");
+    height: 50px;
+
+}
+
+main {
+    text-align: center;
+    width: 60%;
+    margin: auto;
+}
+
+main h2 {
+    text-shadow: 0px -2px rgb(238, 130, 206);
+    border-bottom: 3px dashed white;
+    color: rgb(128, 0, 60);
+}
+
+.main-nav li {
+    margin-top: 4%;
+    display: inline-block;
+}
+
+.main-nav a {
+    font-family: monospace;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    padding: 0.5em 3em;
+    background-color: rgb(168, 5, 119);
+    border-radius: 5px;
+}
+
+.main-nav a:hover {
+    box-shadow: 1px 3px 5px rgb(146, 16, 221);
+}
+
+main h3 {
+    text-shadow: 0px -2px rgb(238, 130, 206);
+    color: rgb(128, 0, 60);
+    font-size: 20px;
+    margin-top: 8%;
+    border-top: 2px solid purple;
+    background-color: rgb(255, 255, 255);
+}
+
+#muziek {
+    margin-top: 10%;
+}
+
+#gamen {
+    margin-top: 10%;
+}
